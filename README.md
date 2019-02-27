@@ -6,6 +6,7 @@ This is a summary of my participation in the classification and testing competit
 The project runs on win10 + anaconada. You can also use other environments to run. <br>
 The program uses the InceptionV3 model for fine-tuning, and the final classification accuracy is 0.995. <br>
 I also tried to use resnet50, vgg16, Xception...they can also get a nice result. <br>
+As the project supervisor reason unable to attend the semi-finals <br>
 
 # Network structure change
 The final fully connected layer and category output layer of the network has changed according to the number of categories of actual classified items. You can also try to make different changes.
