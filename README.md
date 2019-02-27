@@ -18,53 +18,53 @@ argparse <br>
 matplotlib <br>
 
 # Project file
-data_pre.py : Divide the training set into a training set and a validation set.
-data_arguement.py : Data enhancement,The default is to enhance 1 to 8 images.
-finetune_model.py : Use this script to train.
-finetune_model_test.py : Use this script to test.
+data_pre.py : Divide the training set into a training set and a validation set. <br>
+data_arguement.py : Data enhancement,The default is to enhance 1 to 8 images. <br>
+finetune_model.py : Use this script to train. <br>
+finetune_model_test.py : Use this script to test. <br>
 
 # Dataset file directory
-Before enhancement
-  | datasets
+Before enhancement <br>
+  | datasets  <br>
      | test
        |image1.jpg
         image2.jpg
-        ...
-     | train
+        ... <br>
+     | train <br>
        |image1.jpg
         image2.jpg
-        ...
-     | test.txt
-     | train.txt
+        ... <br>
+     | test.txt <br>
+     | train.txt <br>
      
-After enhancement
-  | datasets
-     | test
+After enhancement <br>
+  | datasets <br>
+     | test <br>
        |image1.jpg
         image2.jpg
-        ...
-     | train
-       | 1  
+        ... <br>
+     | train <br>
+       | 1   <br>
         |image1.jpg
          image2.jpg
-         ...
-       | 2  
-        |image1.jpg
-         image2.jpg
-         ...  
-       ...
-     | valid
-       | 1  
-        |image1.jpg
-         image2.jpg
-         ...
-       | 2  
+         ... <br>
+       | 2  <br>
         |image1.jpg
          image2.jpg
          ...  
        ...
-     | test.txt
-     | train.txt
+     | valid <br>
+       | 1  
+        |image1.jpg
+         image2.jpg
+         ...
+       | 2  <br>
+        |image1.jpg
+         image2.jpg
+         ...  <br>
+       ... <br>
+     | test.txt <br>
+     | train.txt <br>
      
 Txt file format : image name + label.
 
