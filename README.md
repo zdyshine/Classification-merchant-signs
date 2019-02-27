@@ -69,6 +69,4 @@ After enhancement <br>
 Txt file format : image name + label.
 
 # Match Results
-[image] (
-        Classification-merchant-signs/image/result.jpg
-      )
+[image] (https://github.com/zdyshine/Classification-merchant-signs/blob/master/image/result.jpg)
