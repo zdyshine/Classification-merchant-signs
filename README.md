@@ -2,20 +2,20 @@
 2018 Baidu merchant signboard classification and testing contest：2018百度商家招牌的分类与检测大赛
 
 # Overview
-This is a summary of my participation in the classification and testing competition of 2018 Baidu merchant signs. Competition homepage: [百度]（https://dianshi.baidu.com/competition/17/rule）。 
-The project runs on win10 + anaconada. You can also use other environments to run.
-The program uses the InceptionV3 model for fine-tuning, and the final classification accuracy is 0.995.
-I also tried to use resnet50, vgg16, Xception...they can also get a nice result.
+This is a summary of my participation in the classification and testing competition of 2018 Baidu merchant signs. Competition homepage: [百度]（https://dianshi.baidu.com/competition/17/rule）。  <br>
+The project runs on win10 + anaconada. You can also use other environments to run. <br>
+The program uses the InceptionV3 model for fine-tuning, and the final classification accuracy is 0.995. <br>
+I also tried to use resnet50, vgg16, Xception...they can also get a nice result. <br>
 
 # Network structure change
 The final fully connected layer and category output layer of the network has changed according to the number of categories of actual classified items. You can also try to make different changes.
 
 # Installation requirements
-python = 3.6.0
-tensorflow >= 1.7.0
-keras > = 2.1.3
-argparse
-matplotlib
+python = 3.6.0 <br>
+tensorflow >= 1.7.0 <br>
+keras > = 2.1.3 <br>
+argparse <br>
+matplotlib <br>
 
 # Project file
 data_pre.py : Divide the training set into a training set and a validation set.
